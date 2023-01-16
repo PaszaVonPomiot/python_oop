@@ -4,7 +4,7 @@ class Exercise:
     def __init__(self):
         self.public = 20
         self._protected = 10
-        self.__private = "kot"  # z podklasy brak dostępu wprost
+        self.__private = "private"  # no direct access from subclass
         self._decorated_property = 3
 
     def bound_method(self):
