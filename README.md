@@ -28,6 +28,7 @@
     - Abstraction
         - abstract classes
         - abstract methods
+        - abstract property
     - Polymorphism
         - method overriding (super)
         - method overloading (dispatch)
