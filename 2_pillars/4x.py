@@ -17,20 +17,3 @@ class Vehicle:
 
 class Car(Vehicle):
     ...
-
-
-from multipledispatch import dispatch
-
-
-@dispatch(int, int)
-def foo(a, b):
-    print(a, b, "osiem")
-
-
-@dispatch(int, int, str)
-def foo(a, b, c):
-    print(a, b, c)
-
-
-foo(1, 2)
-foo(1, 2, "trzy")
