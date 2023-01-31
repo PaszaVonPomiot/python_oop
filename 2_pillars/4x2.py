@@ -4,7 +4,7 @@ Make class Http404 callable so that below code works
 
 
 class Http404:
-    def raise_exception(self, message="Error HTTP 404"):
+    def raise_exception(self, message: str = "Error HTTP 404") -> None:
         raise ValueError(message)
 
 

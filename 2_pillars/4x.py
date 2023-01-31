@@ -6,12 +6,12 @@ Create Car instance and get_details()
 
 
 class Vehicle:
-    def __init__(self, make, model, year):
+    def __init__(self, make: str, model: str, year: int) -> None:
         self.make = make
         self.model = model
         self.year = year
 
-    def get_details(self):
+    def get_details(self) -> str:
         return f"{self.year} {self.make} {self.model}"
 
 
