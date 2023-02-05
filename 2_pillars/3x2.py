@@ -5,6 +5,8 @@ Implement 'message' in MaxValueValidator
 Run the code to see if it works
 """
 
+from abc import ABC, abstractmethod
+
 
 class BaseValidator:
     code = "limit_value"

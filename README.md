@@ -5,15 +5,19 @@
 
  ### Requirements
  - Basic knowledge of Python - syntax, keywords, built-in data types, creating variables, writing and invoking simple functions, using Python console, executing Python script
- - Installed Python 3.10+ and IDE (eg. VS Code, PyCharm)
+ - Installed Python 3.10+ and IDE eg. VS Code, PyCharm
  - Office presence
+ - (optional) IDE that allows reading *.ipynb files (Jupyter Notbooks)
+ 
 
  ### Agenda
  1. Introduction
+    - prior knowledge
+    - terminology
     - class definition syntax
     - operations on classes
     - object / instance
-
+    
  1. Pillars of Object Oriented Programming
     - Encapsulation
         - class / instance attributes
@@ -36,7 +40,11 @@
         - iteratable
         - subscriptable
 
- 1. Cohesion and coupling
+ 1. Design considerations
+    - Cohesion
+    - Coupling
+
+#### Bonus content (if time allows)
 
  1. SOLID Principles
     - The Single-Responsibility Principle (SRP)
