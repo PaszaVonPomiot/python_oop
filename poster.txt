@@ -20,21 +20,22 @@ Training description:
 2. Pillars of Object Oriented Programming
    * Inheritance
       -	inheritance and relationships
-      - single / multilevel / hierarchical inheritance
+      -  single / multilevel / hierarchical inheritance
       -	multiple inheritance (MRO)
       -	mixin
       -	composition
    * Encapsulation
-      -	class / instance attributes
       -	bound / class / static methods
+      -	class / instance attributes
+      -  interface
       -	information hiding
-      - property() function
+      -  property() function
    * Abstraction
       -	abstract classes
       -	abstract methods
       -	abstract property
    * Polymorphism
-      - examples
+      -  examples
       -	method overriding (super)
       -	method overloading (dispatch)
       -	callable
