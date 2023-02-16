@@ -3,6 +3,8 @@ Title: Introduction to Object Oriented Programming in Python
 Training level: Independent
 
 Requirement for the participant:
+Dear Manager, before approving please ensure that participant meets below requirements.
+- OFFICE PRESENCE
 - Basics of Python - basic syntax, keywords, built-in data types, variables, functions, loops, Python console, executing Python script
 - Installed Python 3.10+
 - Installed Python IDE eg. VS Code, PyCharm
