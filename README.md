@@ -43,12 +43,3 @@
  1. Design considerations
     - Cohesion
     - Coupling
-
-#### Bonus content (if time allows)
-
- 1. SOLID Principles
-    - The Single-Responsibility Principle (SRP)
-    - The Open-Closed Principle (OCP)
-    - The Liskov Substitution Principle (LSP)
-    - The Interface Segregation Principle (ISP)
-    - The Dependency inversion Principle (DIP)
