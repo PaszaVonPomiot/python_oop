@@ -1,22 +1,19 @@
 """
-Create Image abstract class with instance attributes as parameters: width, length, bit_depth
-Image class defines abstract method export()
-Create Jpeg and Png derived classes that implement export() method
-export() returns string like "jpeg 800x600x24"
+Implement a Car class that extends __init__ method of Vehicle with parameter num_doors
+Override get_details() method and include num_doors in return value
+Create Car instance and get_details()
 """
 
 
-class Image:
+class Vehicle:
+    def __init__(self, make: str, model: str, year: int) -> None:
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def get_details(self) -> str:
+        return f"{self.year} {self.make} {self.model}"
+
+
+class Car(Vehicle):
     ...
-
-
-class Jpeg:
-    ...
-
-
-class Png:
-    ...
-
-
-jpeg = Jpeg(width=1080, length=960, bit_depth=24)
-jpeg.export()
