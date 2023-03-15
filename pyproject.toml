@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "python_oop"
-version = "0.1.0"
+name = "training_python_oop"
+version = "1.0.0"
 description = ""
-authors = ["None"]
+authors = ["WB"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
